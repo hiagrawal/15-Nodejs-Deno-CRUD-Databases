@@ -6,3 +6,6 @@ backend: cd deno then deno run --allow-net app.ts
 connect to MongoDB database:
 https://deno.land/x/mongo@v0.28.0
 
+run deno app using:
+deno run --allow-net --allow-read --allow-write --allow-plugin app.ts  
+deno run --allow-net --allow-read --allow-write app.ts  
