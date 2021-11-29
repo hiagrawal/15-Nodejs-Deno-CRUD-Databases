@@ -2,3 +2,7 @@ start both server frontend and backend in 2 separate terminals so that both are 
 
 frontend: cd frontend-app then npm start
 backend: cd deno then deno run --allow-net app.ts  
+
+connect to MongoDB database:
+https://deno.land/x/mongo@v0.28.0
+
