@@ -1,0 +1,4 @@
+start both server frontend and backend in 2 separate terminals so that both are up are running
+
+frontend: cd frontend-app then npm start
+backend: cd deno then deno run --allow-net app.ts  
